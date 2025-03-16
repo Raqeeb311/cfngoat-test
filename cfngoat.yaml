@@ -25,11 +25,11 @@ Parameters:
     Default: /aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2
 
 Resources:
-  ####################
+  ###'sts:AssumeRole'"make it work "###################
   ###  EC2 in VPC  ###
   ####################
   EC2Instance:
-    Type: AWS::EC2::Instance
+    Type: AWS::EC2::Instancsssssssss
     Properties:
       AvailabilityZone:
         Fn::Select:
